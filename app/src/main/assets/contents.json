@@ -1,0 +1,1110 @@
+{
+  "android_play_store_link": "",
+  "ios_app_store_link": "",
+  "sticker_packs": [
+     {
+      "identifier": "1",
+      "name": "Bollywood Animation Sticker 1.0",
+      "publisher": "Professional Cipher",
+      "tray_image_file": "01.png",
+      "image_data_version": "1",
+      "avoid_cache": false,
+      "publisher_email": "",
+      "publisher_website": "",
+      "privacy_policy_website": "",
+      "license_agreement_website": "",
+       "animated_sticker_pack": true,
+
+       "stickers": [
+        {
+          "image_file": "STK-20211213-WA0148.webp",
+          "emojis": [
+            "☕",
+            "🙂"
+          ]
+        },
+        {
+          "image_file": "STK-20211213-WA0149.webp",
+          "emojis": [
+            "😄",
+            "😀"
+          ]
+        },
+        {
+          "image_file": "STK-20211213-WA0151.webp",
+          "emojis": [
+            "😆",
+            "😂"
+          ]
+        },
+        {
+          "image_file": "STK-20211213-WA0154.webp",
+          "emojis": [
+            "😩",
+            "😰"
+          ]
+        },
+        {
+          "image_file": "STK-20211213-WA0155.webp",
+          "emojis": [
+            "😭",
+            "💧"
+          ]
+        },
+        {
+          "image_file": "STK-20211213-WA0156.webp",
+          "emojis": [
+            "😍",
+            "♥"
+          ]
+        },
+        {
+          "image_file": "STK-20211213-WA0157.webp",
+          "emojis": [
+            "💔",
+            "👎"
+          ]
+        },
+        {
+          "image_file": "STK-20211213-WA0159.webp",
+          "emojis": [
+            "😍",
+            "💑"
+          ]
+        },
+        {
+          "image_file": "STK-20211213-WA0170.webp",
+          "emojis": [
+            "😘",
+            "🍪"
+          ]
+        },
+        {
+          "image_file": "STK-20211213-WA0173.webp",
+          "emojis": [
+            "🤔",
+            "😐"
+          ]
+        },
+        {
+          "image_file": "STK-20211213-WA0175.webp",
+          "emojis": [
+            "😱",
+            "😵"
+          ]
+        },
+        {
+          "image_file": "STK-20211213-WA0195.webp",
+          "emojis": [
+            "😡",
+            "😠"
+          ]
+        },
+        {
+          "image_file": "STK-20211213-WA0196.webp",
+          "emojis": [
+            "❓",
+            "🤔"
+          ]
+        },
+        {
+          "image_file": "STK-20211213-WA0200.webp",
+          "emojis": [
+            "🌈",
+            "😜"
+          ]
+        },
+        {
+          "image_file": "STK-20211213-WA0201.webp",
+          "emojis": [
+            "💻",
+            "😩"
+          ]
+        },
+        {
+          "image_file": "STK-20211213-WA0202.webp",
+          "emojis": [
+            "😡",
+            "😤"
+          ]
+        },
+        {
+          "image_file": "STK-20211213-WA0204.webp",
+          "emojis": [
+            "😩",
+            "😨"
+          ]
+        },
+        {
+          "image_file": "STK-20211213-WA0205.webp",
+          "emojis": [
+            "💻",
+            "🌃"
+          ]
+        },
+        {
+          "image_file": "STK-20211213-WA0206.webp",
+          "emojis": [
+            "🎉",
+            "✨"
+          ]
+        },
+        {
+          "image_file": "STK-20211213-WA0207.webp",
+          "emojis": [
+            "🤮",
+            "👎"
+          ]
+        },
+        {
+          "image_file": "STK-20211213-WA0388.webp",
+          "emojis": [
+            "🖐",
+            "🙋"
+          ]
+        },
+        {
+          "image_file": "STK-20211213-WA0389.webp",
+          "emojis": [
+            "🖐",
+            "👋"
+          ]
+        },
+        {
+          "image_file": "STK-20211213-WA0397.webp",
+          "emojis": [
+            "🍵",
+            "😌"
+          ]
+        }
+      ]
+    },
+    {
+      "identifier": "2",
+      "name": "Bollywood Sticker 2.0",
+      "publisher": "Profession Cipher",
+      "tray_image_file": "01.png",
+      "image_data_version": "1",
+      "avoid_cache": false,
+      "publisher_email": "",
+      "publisher_website": "",
+      "privacy_policy_website": "",
+      "license_agreement_website": "",
+      "stickers": [
+        {
+          "image_file": "STK-20211213-WA0146.webp",
+          "emojis": [
+            "🥰",
+            "😘"
+
+          ]
+        },
+        {
+          "image_file": "STK-20211213-WA0147.webp",
+          "emojis": [
+            "✊",
+            "💪",
+            "🙏"
+          ]
+        },
+        {
+          "image_file": "STK-20211213-WA0150.webp",
+          "emojis": [
+            "❤️",
+            "🥰",
+            "💕"
+          ]
+        },
+        {
+          "image_file": "STK-20211213-WA0179.webp",
+          "emojis": [
+            "🖐",
+            "🙌",
+            "✋"
+          ]
+        },
+        {
+          "image_file": "STK-20211213-WA0181.webp",
+          "emojis": [
+            "📱",
+            "👯",
+            "👋"
+          ]
+        },
+        {
+          "image_file": "STK-20211213-WA0182.webp",
+          "emojis": [
+            "📱",
+            "🙋‍♀",
+            "🙋‍♂"
+          ]
+        },
+        {
+          "image_file": "STK-20211213-WA0184.webp",
+          "emojis": [
+            "👍",
+            "👌",
+            "🙂"
+          ]
+        },
+        {
+          "image_file": "STK-20211213-WA0185.webp",
+          "emojis": [
+            "👋",
+            "❓",
+            "📱"
+          ]
+        },
+        {
+          "image_file": "STK-20211213-WA0186.webp",
+          "emojis": [
+            "☕",
+            "🍵",
+            "🏠"
+          ]
+        },
+        {
+          "image_file": "STK-20211213-WA0187.webp",
+          "emojis": [
+            "👩‍💻",
+            "👨‍💻",
+            "🛏"
+          ]
+        },
+        {
+          "image_file": "STK-20211213-WA0188.webp",
+          "emojis": [
+            "🧘♀",
+            "🧘♂",
+            "🤙"
+          ]
+        },
+        {
+          "image_file": "STK-20211213-WA0189.webp",
+          "emojis": [
+            "🤸",
+            "🐩",
+            "💪"
+          ]
+        },
+        {
+          "image_file": "STK-20211213-WA0190.webp",
+          "emojis": [
+            "📰",
+            "🔎",
+            "🔍"
+          ]
+        },
+        {
+          "image_file": "STK-20211213-WA0191.webp",
+          "emojis": [
+            "🐈",
+            "🐱",
+            "💻"
+          ]
+        },
+        {
+          "image_file": "STK-20211213-WA0192.webp",
+          "emojis": [
+            "👩‍💻",
+            "🏠",
+            "💻"
+          ]
+        }
+      ]
+    },
+
+    {
+      "identifier": "3",
+      "name": "Bollywood Sticker 3.0",
+      "publisher": "Professional Cipher",
+      "tray_image_file": "front_sticker.webp",
+      "image_data_version": "1",
+      "avoid_cache": false,
+      "publisher_email": "",
+      "publisher_website": "",
+      "privacy_policy_website": "",
+      "license_agreement_website": "",
+      "stickers": [
+        {
+          "image_file": "STK-20211213-WA0315.webp",
+          "emojis": [
+            "☕",
+            "🙂"
+
+          ]
+        },
+        {
+          "image_file": "STK-20211213-WA0316.webp",
+          "emojis": [
+            "😄",
+            "😀"
+          ]
+        },
+        {
+          "image_file": "STK-20211213-WA0317.webp",
+          "emojis": [
+            "😆",
+            "😂"
+          ]
+        },
+        {
+          "image_file": "STK-20211213-WA0318.webp",
+          "emojis": [
+            "😩",
+            "😰"
+          ]
+        },
+        {
+          "image_file": "STK-20211213-WA0321.webp",
+          "emojis": [
+            "😭",
+            "💧"
+          ]
+        },
+        {
+          "image_file": "STK-20211213-WA0322.webp",
+          "emojis": [
+            "😍",
+            "♥"
+          ]
+        },
+        {
+          "image_file": "STK-20211213-WA0323.webp",
+          "emojis": [
+            "😍",
+            "💑"
+          ]
+        },
+        {
+          "image_file": "STK-20211213-WA0324.webp",
+          "emojis": [
+            "😘",
+            "🍪"
+          ]
+        },
+        {
+          "image_file": "STK-20211213-WA0325.webp",
+          "emojis": [
+            "🤔",
+            "😐"
+          ]
+        },
+        {
+          "image_file": "STK-20211213-WA0326.webp",
+          "emojis": [
+            "😱",
+            "😵"
+          ]
+        },
+        {
+          "image_file": "STK-20211213-WA0327.webp",
+          "emojis": [
+            "😡",
+            "😠"
+          ]
+        },
+        {
+          "image_file": "STK-20211213-WA0328.webp",
+          "emojis": [
+            "❓",
+            "🤔"
+          ]
+        },
+        {
+          "image_file": "STK-20211213-WA0329.webp",
+          "emojis": [
+            "🌈",
+            "😜"
+          ]
+        },
+        {
+          "image_file": "STK-20211213-WA0330.webp",
+          "emojis": [
+            "💻",
+            "😩"
+          ]
+        },
+        {
+          "image_file": "STK-20211213-WA0331.webp",
+          "emojis": [
+            "😡",
+            "😤"
+          ]
+        }
+      ]
+    },
+    {
+      "identifier": "4",
+      "name": "Bollywood Sticker 4.0",
+      "publisher": "Profession Cipher",
+      "tray_image_file": "sticker_1.webp",
+      "image_data_version": "1",
+      "avoid_cache": false,
+      "publisher_email": "",
+      "publisher_website": "",
+      "privacy_policy_website": "",
+      "license_agreement_website": "",
+      "stickers": [
+        {
+          "image_file": "STK-20211213-WA0152.webp",
+          "emojis": [
+            "☕",
+            "🙂"
+          ]
+        },
+        {
+          "image_file": "STK-20211213-WA0153.webp",
+          "emojis": [
+            "😄",
+            "😀"
+          ]
+        },
+        {
+          "image_file": "STK-20211213-WA0158.webp",
+          "emojis": [
+            "😆",
+            "😂"
+          ]
+        },
+        {
+          "image_file": "STK-20211213-WA0160.webp",
+          "emojis": [
+            "😩",
+            "😰"
+          ]
+        },
+        {
+          "image_file": "STK-20211213-WA0161.webp",
+          "emojis": [
+            "😭",
+            "💧"
+          ]
+        },
+        {
+          "image_file": "STK-20211213-WA0332.webp",
+          "emojis": [
+            "😍",
+            "♥"
+          ]
+        },
+        {
+          "image_file": "STK-20211213-WA0333.webp",
+          "emojis": [
+            "💔",
+            "👎"
+          ]
+        },
+        {
+          "image_file": "STK-20211213-WA0334.webp",
+          "emojis": [
+            "😍",
+            "💑"
+          ]
+        },
+        {
+          "image_file": "STK-20211213-WA0335.webp",
+          "emojis": [
+            "😘",
+            "🍪"
+          ]
+        },
+        {
+          "image_file": "STK-20211213-WA0336.webp",
+          "emojis": [
+            "🤔",
+            "😐"
+          ]
+        },
+        {
+          "image_file": "STK-20211213-WA0337.webp",
+          "emojis": [
+            "😱",
+            "😵"
+          ]
+        },
+        {
+          "image_file": "STK-20211213-WA0339.webp",
+          "emojis": [
+            "😡",
+            "😠"
+          ]
+        },
+        {
+          "image_file": "STK-20211213-WA0340.webp",
+          "emojis": [
+            "❓",
+            "🤔"
+          ]
+        },
+        {
+          "image_file": "STK-20211213-WA0341.webp",
+          "emojis": [
+            "🌈",
+            "😜"
+          ]
+        },
+        {
+          "image_file": "STK-20211213-WA0342.webp",
+          "emojis": [
+            "💻",
+            "😩"
+          ]
+        }
+      ]
+    },
+    {
+      "identifier": "5",
+      "name": "Bollywood Sticker 5.0",
+      "publisher": "Profession Cipher",
+      "tray_image_file": "sticker_1.webp",
+      "image_data_version": "1",
+      "avoid_cache": false,
+      "publisher_email": "",
+      "publisher_website": "",
+      "privacy_policy_website": "",
+      "license_agreement_website": "",
+      "stickers": [
+        {
+          "image_file": "STK-20211213-WA0162.webp",
+          "emojis": [
+            "☕",
+            "🙂"
+          ]
+        },
+        {
+          "image_file": "STK-20211213-WA0343.webp",
+          "emojis": [
+            "😄",
+            "😀"
+          ]
+        },
+        {
+          "image_file": "STK-20211213-WA0344.webp",
+          "emojis": [
+            "😆",
+            "😂"
+          ]
+        },
+        {
+          "image_file": "STK-20211213-WA0345.webp",
+          "emojis": [
+            "😩",
+            "😰"
+          ]
+        },
+        {
+          "image_file": "STK-20211213-WA0346.webp",
+          "emojis": [
+            "😭",
+            "💧"
+          ]
+        },
+        {
+          "image_file": "STK-20211213-WA0347.webp",
+          "emojis": [
+            "😍",
+            "♥"
+          ]
+        },
+        {
+          "image_file": "STK-20211213-WA0348.webp",
+          "emojis": [
+            "💔",
+            "👎"
+          ]
+        },
+        {
+          "image_file": "STK-20211213-WA0349.webp",
+          "emojis": [
+            "😍",
+            "💑"
+          ]
+        },
+        {
+          "image_file": "STK-20211213-WA0350.webp",
+          "emojis": [
+            "😘",
+            "🍪"
+          ]
+        },
+        {
+          "image_file": "STK-20211213-WA0351.webp",
+          "emojis": [
+            "🤔",
+            "😐"
+          ]
+        },
+        {
+          "image_file": "STK-20211213-WA0352.webp",
+          "emojis": [
+            "😱",
+            "😵"
+          ]
+        },
+        {
+          "image_file": "STK-20211213-WA0353.webp",
+          "emojis": [
+            "😡",
+            "😠"
+          ]
+        },
+        {
+          "image_file": "STK-20211213-WA0354.webp",
+          "emojis": [
+            "❓",
+            "🤔"
+          ]
+        },
+        {
+          "image_file": "STK-20211213-WA0355.webp",
+          "emojis": [
+            "🌈",
+            "😜"
+          ]
+        },
+        {
+          "image_file": "STK-20211213-WA0356.webp",
+          "emojis": [
+            "💻",
+            "😩"
+          ]
+        }
+      ]
+    },
+    {
+      "identifier": "6",
+      "name": "Bollywood Sticker 6.0",
+      "publisher": "Profession Cipher",
+      "tray_image_file": "test_sticker.webp",
+      "image_data_version": "1",
+      "avoid_cache": false,
+      "publisher_email": "",
+      "publisher_website": "",
+      "privacy_policy_website": "",
+      "license_agreement_website": "",
+      "stickers": [
+        {
+          "image_file": "STK-20211213-WA0163.webp",
+          "emojis": [
+            "☕",
+            "🙂"
+          ]
+        },
+        {
+          "image_file": "STK-20211213-WA0164.webp",
+          "emojis": [
+            "😄",
+            "😀"
+          ]
+        },
+        {
+          "image_file": "STK-20211213-WA0165.webp",
+          "emojis": [
+            "😆",
+            "😂"
+          ]
+        },
+        {
+          "image_file": "STK-20211213-WA0166.webp",
+          "emojis": [
+            "😩",
+            "😰"
+          ]
+        },
+        {
+          "image_file": "STK-20211213-WA0357.webp",
+          "emojis": [
+            "😭",
+            "💧"
+          ]
+        },
+        {
+          "image_file": "STK-20211213-WA0358.webp",
+          "emojis": [
+            "😍",
+            "♥"
+          ]
+        },
+        {
+          "image_file": "STK-20211213-WA0359.webp",
+          "emojis": [
+            "💔",
+            "👎"
+          ]
+        },
+        {
+          "image_file": "STK-20211213-WA0360.webp",
+          "emojis": [
+            "😍",
+            "💑"
+          ]
+        },
+        {
+          "image_file": "STK-20211213-WA0361.webp",
+          "emojis": [
+            "😘",
+            "🍪"
+          ]
+        },
+        {
+          "image_file": "STK-20211213-WA0362.webp",
+          "emojis": [
+            "🤔",
+            "😐"
+          ]
+        },
+        {
+          "image_file": "STK-20211213-WA0363.webp",
+          "emojis": [
+            "😱",
+            "😵"
+          ]
+        },
+        {
+          "image_file": "STK-20211213-WA0364.webp",
+          "emojis": [
+            "😡",
+            "😠"
+          ]
+        },
+        {
+          "image_file": "STK-20211213-WA0365.webp",
+          "emojis": [
+            "❓",
+            "🤔"
+          ]
+        },
+        {
+          "image_file": "STK-20211213-WA0366.webp",
+          "emojis": [
+            "🌈",
+            "😜"
+          ]
+        },
+        {
+          "image_file": "STK-20211213-WA0367.webp",
+          "emojis": [
+            "💻",
+            "😩"
+          ]
+        }
+      ]
+    },
+    {
+      "identifier": "7",
+      "name": "Bollywood Sticker 7.0",
+      "publisher": "Profession Cipher",
+      "tray_image_file": "01.png",
+      "image_data_version": "1",
+      "avoid_cache": false,
+      "publisher_email": "",
+      "publisher_website": "",
+      "privacy_policy_website": "",
+      "license_agreement_website": "",
+      "stickers": [
+        {
+          "image_file": "STK-20211213-WA0368.webp",
+          "emojis": [
+            "☕",
+            "🙂"
+          ]
+        },
+        {
+          "image_file": "STK-20211213-WA0369.webp",
+          "emojis": [
+            "😄",
+            "😀"
+          ]
+        },
+        {
+          "image_file": "STK-20211213-WA0370.webp",
+          "emojis": [
+            "😆",
+            "😂"
+          ]
+        },
+        {
+          "image_file": "STK-20211213-WA0371.webp",
+          "emojis": [
+            "😩",
+            "😰"
+          ]
+        },
+        {
+          "image_file": "STK-20211213-WA0372.webp",
+          "emojis": [
+            "😭",
+            "💧"
+          ]
+        },
+        {
+          "image_file": "STK-20211213-WA0373.webp",
+          "emojis": [
+            "😍",
+            "♥"
+          ]
+        },
+        {
+          "image_file": "STK-20211213-WA0374.webp",
+          "emojis": [
+            "💔",
+            "👎"
+          ]
+        },
+        {
+          "image_file": "STK-20211213-WA0375.webp",
+          "emojis": [
+            "😍",
+            "💑"
+          ]
+        },
+        {
+          "image_file": "STK-20211213-WA0376.webp",
+          "emojis": [
+            "😘",
+            "🍪"
+          ]
+        },
+        {
+          "image_file": "STK-20211213-WA0377.webp",
+          "emojis": [
+            "🤔",
+            "😐"
+          ]
+        },
+        {
+          "image_file": "STK-20211213-WA0378.webp",
+          "emojis": [
+            "😱",
+            "😵"
+          ]
+        },
+        {
+          "image_file": "STK-20211213-WA0379.webp",
+          "emojis": [
+            "😡",
+            "😠"
+          ]
+        },
+        {
+          "image_file": "STK-20211213-WA0380.webp",
+          "emojis": [
+            "❓",
+            "🤔"
+          ]
+        },
+        {
+          "image_file": "STK-20211213-WA0381.webp",
+          "emojis": [
+            "🌈",
+            "😜"
+          ]
+        },
+        {
+          "image_file": "STK-20211213-WA0382.webp",
+          "emojis": [
+            "💻",
+            "😩"
+          ]
+        }
+      ]
+    },
+    {
+      "identifier": "8",
+      "name": "Bollywood Sticker 8.0",
+      "publisher": "Profession Cipher",
+      "tray_image_file": "01.png",
+      "image_data_version": "1",
+      "avoid_cache": false,
+      "publisher_email": "",
+      "publisher_website": "",
+      "privacy_policy_website": "",
+      "license_agreement_website": "",
+      "stickers": [
+        {
+          "image_file": "STK-20211213-WA0167.webp",
+          "emojis": [
+            "☕",
+            "🙂"
+          ]
+        },
+        {
+          "image_file": "STK-20211213-WA0168.webp",
+          "emojis": [
+            "😄",
+            "😀"
+          ]
+        },
+        {
+          "image_file": "STK-20211213-WA0169.webp",
+          "emojis": [
+            "😆",
+            "😂"
+          ]
+        },
+        {
+          "image_file": "STK-20211213-WA0171.webp",
+          "emojis": [
+            "😩",
+            "😰"
+          ]
+        },
+        {
+          "image_file": "STK-20211213-WA0172.webp",
+          "emojis": [
+            "😭",
+            "💧"
+          ]
+        },
+        {
+          "image_file": "STK-20211213-WA0174.webp",
+          "emojis": [
+            "😍",
+            "♥"
+          ]
+        },
+        {
+          "image_file": "STK-20211213-WA0193.webp",
+          "emojis": [
+            "💔",
+            "👎"
+          ]
+        },
+        {
+          "image_file": "STK-20211213-WA0194.webp",
+          "emojis": [
+            "😍",
+            "💑"
+          ]
+        },
+        {
+          "image_file": "STK-20211213-WA0197.webp",
+          "emojis": [
+            "😘",
+            "🍪"
+          ]
+        },
+        {
+          "image_file": "STK-20211213-WA0198.webp",
+          "emojis": [
+            "🤔",
+            "😐"
+          ]
+        },
+        {
+          "image_file": "STK-20211213-WA0199.webp",
+          "emojis": [
+            "😱",
+            "😵"
+          ]
+        },
+        {
+          "image_file": "STK-20211213-WA0203.webp",
+          "emojis": [
+            "😡",
+            "😠"
+          ]
+        },
+        {
+          "image_file": "STK-20211213-WA0319.webp",
+          "emojis": [
+            "❓",
+            "🤔"
+          ]
+        },
+        {
+          "image_file": "STK-20211213-WA0320.webp",
+          "emojis": [
+            "🌈",
+            "😜"
+          ]
+        },
+        {
+          "image_file": "STK-20211213-WA0383.webp",
+          "emojis": [
+            "💻",
+            "😩"
+          ]
+        }
+      ]
+    },
+    {
+      "identifier": "9",
+      "name": "Bollywood Sticker 9.0",
+      "publisher": "Profession Cipher",
+      "tray_image_file": "01.png",
+      "image_data_version": "1",
+      "avoid_cache": false,
+      "publisher_email": "",
+      "publisher_website": "",
+      "privacy_policy_website": "",
+      "license_agreement_website": "",
+      "stickers": [
+        {
+          "image_file": "STK-20211213-WA0384.webp",
+          "emojis": [
+            "☕",
+            "🙂"
+          ]
+        },
+        {
+          "image_file": "STK-20211213-WA0386.webp",
+          "emojis": [
+            "😄",
+            "😀"
+          ]
+        },
+        {
+          "image_file": "STK-20211213-WA0387.webp",
+          "emojis": [
+            "😆",
+            "😂"
+          ]
+        },
+        {
+          "image_file": "STK-20211213-WA0390.webp",
+          "emojis": [
+            "😩",
+            "😰"
+          ]
+        },
+        {
+          "image_file": "STK-20211213-WA0392.webp",
+          "emojis": [
+            "😭",
+            "💧"
+          ]
+        },
+        {
+          "image_file": "STK-20211213-WA0393.webp",
+          "emojis": [
+            "😍",
+            "♥"
+          ]
+        },
+        {
+          "image_file": "STK-20211213-WA0394.webp",
+          "emojis": [
+            "💔",
+            "👎"
+          ]
+        },
+        {
+          "image_file": "STK-20211213-WA0395.webp",
+          "emojis": [
+            "😍",
+            "💑"
+          ]
+        },
+        {
+          "image_file": "STK-20211213-WA0396.webp",
+          "emojis": [
+            "😘",
+            "🍪"
+          ]
+        }
+      ]
+    }
+    ]
+}
