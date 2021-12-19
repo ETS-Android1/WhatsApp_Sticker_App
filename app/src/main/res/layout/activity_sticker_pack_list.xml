@@ -27,7 +27,7 @@
         android:layout_centerHorizontal="true"
         android:layout_alignParentBottom="true"
         ads:adSize="BANNER"
-        ads:adUnitId="ca-app-pub-4592708449598399/2337129007">
+        ads:adUnitId="@string/stickerPackListActivity_Bottom_Banner_AdView">
     </com.google.android.gms.ads.AdView>
 
 </RelativeLayout>

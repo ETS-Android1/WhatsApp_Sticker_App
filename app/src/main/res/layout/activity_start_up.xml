@@ -22,7 +22,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             ads:adSize="MEDIUM_RECTANGLE"
-            ads:adUnitId="ca-app-pub-4592708449598399/9042972303"
+            ads:adUnitId="@string/startUpActivity_center_Banner_AdView_id"
             android:layout_marginTop="10dp"/>
     </LinearLayout>
 
@@ -75,7 +75,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="20dp"
         ads:adSize="BANNER"
-        ads:adUnitId="ca-app-pub-4592708449598399/3045057086" />
+        ads:adUnitId="@string/startUpActivity_bottom_Banner_AdView_id" />
 
 
 </RelativeLayout>

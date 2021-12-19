@@ -1,6 +1,5 @@
 package com.example.stickers;
 
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
@@ -40,7 +39,7 @@ public class StartUp_Activity extends AppCompatActivity {
         MobileAds.initialize(this, new OnInitializationCompleteListener() {
 
             @Override
-            public void onInitializationComplete( InitializationStatus initializationStatus) {
+            public void onInitializationComplete( @NonNull InitializationStatus initializationStatus) {
                 Map<String, AdapterStatus> statusMap = initializationStatus.getAdapterStatusMap();
                 for (String adapterClass : statusMap.keySet()) {
                     AdapterStatus status = statusMap.get(adapterClass);
