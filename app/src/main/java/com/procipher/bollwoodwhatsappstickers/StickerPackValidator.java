@@ -6,7 +6,7 @@
  * LICENSE file in the root directory of this source tree.
  */
 
-package com.example.stickers;
+package com.procipher.bollwoodwhatsappstickers;
 
 import android.content.Context;
 import android.graphics.Bitmap;
@@ -53,6 +53,7 @@ class StickerPackValidator {
         if (TextUtils.isEmpty(stickerPack.identifier)) {
             throw new IllegalStateException("sticker pack identifier is empty");
         }
+
         if (stickerPack.identifier.length() > CHAR_COUNT_MAX) {
             throw new IllegalStateException("sticker pack identifier cannot exceed " + CHAR_COUNT_MAX + " characters");
         }

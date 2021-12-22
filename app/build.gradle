@@ -4,7 +4,7 @@ android {
     //the compression of webp file during build causes problem with FileDescriptor in ContentProvider.
     compileSdkVersion 31
     defaultConfig {
-        applicationId "com.example.stickerss"
+        applicationId "com.procipher.bollwoodwhatsappstickers"
         minSdkVersion 21
         targetSdkVersion 31
         versionCode 1
@@ -42,6 +42,9 @@ android {
     }
     androidResources {
         noCompress 'webp'
+    }
+    buildFeatures {
+        viewBinding true
     }
 
     // Configures multiple APKs based on ABI.
@@ -101,6 +104,7 @@ tasks.whenTaskAdded { task ->
 dependencies {
     implementation fileTree(include: ['*.jar'], dir: 'libs')
     implementation 'com.google.android.material:material:1.4.0'
+    implementation 'androidx.appcompat:appcompat:1.4.0'
     testImplementation 'junit:junit:4.13.2'
     implementation 'org.testng:testng:6.1.1'
     androidTestImplementation 'androidx.test:runner:1.4.0'

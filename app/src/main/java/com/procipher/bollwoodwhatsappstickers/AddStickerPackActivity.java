@@ -6,7 +6,7 @@
  * LICENSE file in the root directory of this source tree.
  */
 
-package com.example.stickers;
+package com.procipher.bollwoodwhatsappstickers;
 
 import android.app.Activity;
 import android.app.Dialog;
@@ -67,6 +67,7 @@ public abstract class AddStickerPackActivity extends BaseActivity {
         Intent intent = createIntentToAddStickerPack(identifier, stickerPackName);
         try {
             startActivityForResult(Intent.createChooser(intent, getString(R.string.add_to_whatsapp)), ADD_PACK);
+
         } catch (ActivityNotFoundException e) {
             Toast.makeText(this, R.string.add_pack_fail_prompt_update_whatsapp, Toast.LENGTH_LONG).show();
         }

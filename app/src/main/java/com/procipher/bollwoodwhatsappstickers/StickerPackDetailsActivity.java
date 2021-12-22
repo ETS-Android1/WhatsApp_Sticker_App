@@ -6,13 +6,14 @@
  * LICENSE file in the root directory of this source tree.
  */
 
-package com.example.stickers;
+package com.procipher.bollwoodwhatsappstickers;
 
 import android.content.Intent;
 import android.net.Uri;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.text.format.Formatter;
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -25,8 +26,18 @@ import androidx.recyclerview.widget.GridLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.facebook.drawee.view.SimpleDraweeView;
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.FullScreenContentCallback;
+import com.google.android.gms.ads.LoadAdError;
+import com.google.android.gms.ads.MobileAds;
+import com.google.android.gms.ads.initialization.AdapterStatus;
+import com.google.android.gms.ads.initialization.InitializationStatus;
+import com.google.android.gms.ads.initialization.OnInitializationCompleteListener;
+import com.google.android.gms.ads.interstitial.InterstitialAd;
+import com.google.android.gms.ads.interstitial.InterstitialAdLoadCallback;
 
 import java.lang.ref.WeakReference;
+import java.util.Map;
 
 public class StickerPackDetailsActivity extends AddStickerPackActivity {
 
@@ -45,7 +56,7 @@ public class StickerPackDetailsActivity extends AddStickerPackActivity {
     public static final String EXTRA_SHOW_UP_BUTTON = "show_up_button";
     public static final String EXTRA_STICKER_PACK_DATA = "sticker_pack";
 
-
+private  InterstitialAd mInterstitialAd;
     private RecyclerView recyclerView;
     private GridLayoutManager layoutManager;
     private StickerPreviewAdapter stickerPreviewAdapter;
@@ -63,6 +74,19 @@ public class StickerPackDetailsActivity extends AddStickerPackActivity {
         setContentView(R.layout.activity_sticker_pack_details);
         boolean showUpButton = getIntent().getBooleanExtra(EXTRA_SHOW_UP_BUTTON, false);
         stickerPack = getIntent().getParcelableExtra(EXTRA_STICKER_PACK_DATA);
+        MobileAds.initialize(this, new OnInitializationCompleteListener() {
+            @Override
+            public void onInitializationComplete( @NonNull InitializationStatus initializationStatus) {
+                Map<String, AdapterStatus> statusMap = initializationStatus.getAdapterStatusMap();
+                for (String adapterClass : statusMap.keySet()) {
+                    AdapterStatus status = statusMap.get(adapterClass);
+                    Log.d("MyApp", String.format(
+                            "Adapter name: %s, Description: %s, Latency: %d",
+                            adapterClass, status.getDescription(), status.getLatency()));
+                }
+                LoadInterstitialAds();
+            }
+        });
         TextView packNameTextView = findViewById(R.id.pack_name);
         TextView packPublisherTextView = findViewById(R.id.author);
         ImageView packTrayIcon = findViewById(R.id.tray_image);
@@ -103,13 +127,43 @@ public class StickerPackDetailsActivity extends AddStickerPackActivity {
         intent.putExtra(StickerPackDetailsActivity.EXTRA_STICKER_PACK_TRAY_ICON, trayIconUriString);
         startActivity(intent);
     }
+    private void LoadInterstitialAds() {
+        AdRequest adRequest = new AdRequest.Builder().build();
 
+        InterstitialAd.load(this, getString(R.string.admob_interstitial_ad), adRequest, new InterstitialAdLoadCallback() {
+            @Override
+            public void onAdLoaded(@NonNull InterstitialAd interstitialAd) {
+                 mInterstitialAd = interstitialAd;
+            }
+            @Override
+            public void onAdFailedToLoad(@NonNull LoadAdError loadAdError) {
+                mInterstitialAd = null;
+            }
+        });
+    }
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         getMenuInflater().inflate(R.menu.toolbar, menu);
         return super.onCreateOptionsMenu(menu);
     }
+    public void ShowInterstitialAds(){
+        if (mInterstitialAd != null) {
+            mInterstitialAd.show(StickerPackDetailsActivity.this);
+            mInterstitialAd.setFullScreenContentCallback(new FullScreenContentCallback(){
+                @Override
+                public void onAdDismissedFullScreenContent() {
 
+                }
+                @Override
+                public void onAdShowedFullScreenContent() {
+                    LoadInterstitialAds();
+                }
+            });
+        }
+        else {
+            LoadInterstitialAds();
+        }
+    }
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         if (item.getItemId() == R.id.action_info && stickerPack != null) {
@@ -178,6 +232,7 @@ public class StickerPackDetailsActivity extends AddStickerPackActivity {
 
     private void updateAddUI(Boolean isWhitelisted) {
         if (isWhitelisted) {
+ShowInterstitialAds();
             addButton.setVisibility(View.GONE);
             alreadyAddedText.setVisibility(View.VISIBLE);
             findViewById(R.id.sticker_pack_details_tap_to_preview).setVisibility(View.GONE);

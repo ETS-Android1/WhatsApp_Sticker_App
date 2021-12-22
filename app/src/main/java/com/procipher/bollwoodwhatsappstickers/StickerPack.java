@@ -1,4 +1,4 @@
-package com.example.stickers;
+package com.procipher.bollwoodwhatsappstickers;
 
 import android.os.Parcel;
 import android.os.Parcelable;

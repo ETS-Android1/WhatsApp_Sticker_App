@@ -1,6 +1,6 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- This is the app's name, translators please do not translate and put in the same text as English version. Developers can consider putting in their own translation, this string must be changed before publishing -->
-    <string name="app_name" translatable="false">WhatsAppSampleStickerApp</string>
+    <string name="app_name" translatable="false">Whatsapp Bollywood Stickers</string>
     <!-- Content description for the sticker pack tray image -->
     <string name="tray_image_content_description">Sticker Pack Tray Image</string>
     <!-- the title of info button in the menu that takes the user to more information about that pack showing publisher website and so on -->
@@ -47,4 +47,7 @@
     <string name="stickerPackListActivity_Bottom_Banner_AdView" translatable="false">ca-app-pub-4592708449598399/2337129007</string>
     <string name="startUpActivity_center_Banner_AdView_id" translatable="false">ca-app-pub-4592708449598399/9042972303</string>
     <string name="startUpActivity_bottom_Banner_AdView_id" translatable="false">ca-app-pub-4592708449598399/3045057086</string>
+    <string name="title_activity_loading_show" translatable="false">LoadingShowActivity</string>
+    <string name="dummy_button" translatable="false">Dummy Button</string>
+    <string name="dummy_content" translatable="false">DUMMY\nCONTENT</string>
 </resources>

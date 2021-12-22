@@ -6,7 +6,7 @@
  * LICENSE file in the root directory of this source tree.
  */
 
-package com.example.stickers;
+package com.procipher.bollwoodwhatsappstickers;
 
 import android.content.Intent;
 import android.net.Uri;
@@ -19,9 +19,9 @@ import androidx.recyclerview.widget.DividerItemDecoration;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.google.android.gms.ads.AdView;
 import com.google.android.gms.ads.AdListener;
 import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.AdView;
 import com.google.android.gms.ads.LoadAdError;
 import com.google.android.gms.ads.MobileAds;
 import com.google.android.gms.ads.initialization.AdapterStatus;
@@ -44,6 +44,7 @@ public class StickerPackListActivity extends AddStickerPackActivity {
     private WhiteListCheckAsyncTask whiteListCheckAsyncTask;
     private ArrayList<StickerPack> stickerPackList;
     private AdView mAdView;
+    AdRequest adRequest = new AdRequest.Builder().build();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -73,8 +74,6 @@ showAdd();
     }
     private void showAdd(){
         mAdView = findViewById(R.id.main_adView);
-        AdRequest adRequest = new AdRequest.Builder()
-                .build();
         mAdView.loadAd(adRequest);
         mAdView.setAdListener(new AdListener() {
             @Override
@@ -128,7 +127,7 @@ showAdd();
     }
 
     private void showStickerPackList(List<StickerPack> stickerPackList) {
-        allStickerPacksListAdapter = new StickerPackListAdapter(stickerPackList, onAddButtonClickedListener);
+        allStickerPacksListAdapter = new StickerPackListAdapter(stickerPackList, onAddButtonClickedListener,StickerPackListActivity.this);
         packRecyclerView.setAdapter(allStickerPacksListAdapter);
         packLayoutManager = new LinearLayoutManager(this);
         packLayoutManager.setOrientation(RecyclerView.VERTICAL);

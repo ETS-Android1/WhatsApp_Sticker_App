@@ -4,8 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:layout_marginTop="8dp"
-    android:layout_marginBottom="@dimen/preview_side_margin"
+    android:paddingTop="8dp"
+    android:paddingBottom="16dp"
     android:orientation="vertical">
 
     <androidx.constraintlayout.widget.ConstraintLayout
@@ -86,7 +86,7 @@
         android:layout_height="0dp"
         android:layout_weight="1">
 
-        <com.example.stickers.BottomFadingRecyclerView
+        <com.procipher.bollwoodwhatsappstickers.BottomFadingRecyclerView
             android:id="@+id/sticker_list"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -96,7 +96,8 @@
             android:paddingLeft="@dimen/preview_side_margin"
             android:paddingEnd="@dimen/preview_side_margin"
             android:paddingRight="@dimen/preview_side_margin"
-            android:requiresFadingEdge="vertical" />
+            android:requiresFadingEdge="vertical"
+           />
 
         <com.facebook.drawee.view.SimpleDraweeView
             android:id="@+id/sticker_details_expanded_sticker"
