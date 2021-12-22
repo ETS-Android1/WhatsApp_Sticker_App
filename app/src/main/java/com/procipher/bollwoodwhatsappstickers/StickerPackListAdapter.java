@@ -8,13 +8,11 @@
 
 package com.procipher.bollwoodwhatsappstickers;
 
-import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
 import android.graphics.drawable.Drawable;
 import android.os.Build;
 import android.text.format.Formatter;
-import android.util.Log;
 import android.util.TypedValue;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -26,18 +24,8 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.facebook.drawee.view.SimpleDraweeView;
-import com.google.android.gms.ads.AdRequest;
-import com.google.android.gms.ads.FullScreenContentCallback;
-import com.google.android.gms.ads.LoadAdError;
-import com.google.android.gms.ads.MobileAds;
-import com.google.android.gms.ads.initialization.AdapterStatus;
-import com.google.android.gms.ads.initialization.InitializationStatus;
-import com.google.android.gms.ads.initialization.OnInitializationCompleteListener;
-import com.google.android.gms.ads.interstitial.InterstitialAd;
-import com.google.android.gms.ads.interstitial.InterstitialAdLoadCallback;
 
 import java.util.List;
-import java.util.Map;
 
 public class  StickerPackListAdapter extends RecyclerView.Adapter<StickerPackListItemViewHolder> {
     @NonNull
@@ -46,58 +34,15 @@ public class  StickerPackListAdapter extends RecyclerView.Adapter<StickerPackLis
     private final OnAddButtonClickedListener onAddButtonClickedListener;
     private int maxNumberOfStickersInARow;
     private int minMarginBetweenImages;
-private InterstitialAd mInterstitialAd;
-private Activity activity;
-    StickerPackListAdapter(@NonNull List<StickerPack> stickerPacks, @NonNull OnAddButtonClickedListener onAddButtonClickedListener,Activity activity ) {
+
+
+    StickerPackListAdapter(@NonNull List<StickerPack> stickerPacks, @NonNull OnAddButtonClickedListener onAddButtonClickedListener ) {
         this.stickerPacks = stickerPacks;
         this.onAddButtonClickedListener = onAddButtonClickedListener;
-        this.activity = activity;
-        MobileAds.initialize(activity, new OnInitializationCompleteListener() {
-            @Override
-            public void onInitializationComplete( @NonNull InitializationStatus initializationStatus) {
-                Map<String, AdapterStatus> statusMap = initializationStatus.getAdapterStatusMap();
-                for (String adapterClass : statusMap.keySet()) {
-                    AdapterStatus status = statusMap.get(adapterClass);
-                    Log.d("MyApp", String.format(
-                            "Adapter name: %s, Description: %s, Latency: %d",
-                            adapterClass, status.getDescription(), status.getLatency()));
-                }
-                LoadInterstitialAds();
-            }
-        });
-    }
-    private void LoadInterstitialAds() {
-        AdRequest adRequest = new AdRequest.Builder().build();
 
-        InterstitialAd.load(activity, String.valueOf(R.string.admob_interstitial_ad), adRequest, new InterstitialAdLoadCallback() {
-            @Override
-            public void onAdLoaded(@NonNull InterstitialAd interstitialAd) {
-                 mInterstitialAd = interstitialAd;
-            }
-            @Override
-            public void onAdFailedToLoad(@NonNull LoadAdError loadAdError) {
-                mInterstitialAd = null;
-            }
-        });
-    }
-    public void ShowInterstitialAds(){
-        if (mInterstitialAd != null) {
-            mInterstitialAd.show((Activity) activity);
-            mInterstitialAd.setFullScreenContentCallback(new FullScreenContentCallback(){
-                @Override
-                public void onAdDismissedFullScreenContent() {
 
-                }
-                @Override
-                public void onAdShowedFullScreenContent() {
-                    LoadInterstitialAds();
-                }
-            });
-        }
-        else {
-            LoadInterstitialAds();
-        }
     }
+
     @NonNull
     @Override
     public StickerPackListItemViewHolder onCreateViewHolder(@NonNull final ViewGroup viewGroup, final int i) {
@@ -146,7 +91,6 @@ private Activity activity;
 
     private void setAddButtonAppearance(ImageView addButton, StickerPack pack) {
         if (pack.getIsWhitelisted()) {
-            ShowInterstitialAds();
             addButton.setImageResource(R.drawable.sticker_3rdparty_added);
             addButton.setClickable(false);
             addButton.setOnClickListener(null);

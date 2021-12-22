@@ -127,7 +127,7 @@ showAdd();
     }
 
     private void showStickerPackList(List<StickerPack> stickerPackList) {
-        allStickerPacksListAdapter = new StickerPackListAdapter(stickerPackList, onAddButtonClickedListener,StickerPackListActivity.this);
+        allStickerPacksListAdapter = new StickerPackListAdapter(stickerPackList, onAddButtonClickedListener);
         packRecyclerView.setAdapter(allStickerPacksListAdapter);
         packLayoutManager = new LinearLayoutManager(this);
         packLayoutManager.setOrientation(RecyclerView.VERTICAL);
