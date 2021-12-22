@@ -142,9 +142,23 @@ private  InterstitialAd mInterstitialAd;
         });
     }
     @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
+    public boolean onCreateOptionsMenu( Menu menu) {
         getMenuInflater().inflate(R.menu.toolbar, menu);
-        return super.onCreateOptionsMenu(menu);
+        return true;
+    }
+
+    @Override
+    public boolean onOptionsItemSelected( MenuItem item) {
+        int id = item.getItemId();
+        if (id == R.id.action_info && stickerPack!=null) {
+            if (item.getItemId() == R.id.action_info && stickerPack != null) {
+                Uri trayIconUri = StickerPackLoader.getStickerAssetUri(stickerPack.identifier, stickerPack.trayImageFile);
+                launchInfoActivity(stickerPack.publisherWebsite, stickerPack.publisherEmail, stickerPack.privacyPolicyWebsite, stickerPack.licenseAgreementWebsite, trayIconUri.toString());
+                return true;
+            }
+            return true;
+        }
+        return super.onOptionsItemSelected(item);
     }
     public void ShowInterstitialAds(){
         if (mInterstitialAd != null) {
@@ -164,17 +178,7 @@ private  InterstitialAd mInterstitialAd;
             LoadInterstitialAds();
         }
     }
-    @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
-        if (item.getItemId() == R.id.action_info && stickerPack != null) {
-            startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("vnd.youtube:" + "PgCliOxl41o")));
 
-         //   Uri trayIconUri = StickerPackLoader.getStickerAssetUri(stickerPack.identifier, stickerPack.trayImageFile);
-         //   launchInfoActivity(stickerPack.publisherWebsite, stickerPack.publisherEmail, stickerPack.privacyPolicyWebsite, stickerPack.licenseAgreementWebsite, trayIconUri.toString());
-            return true;
-        }
-        return super.onOptionsItemSelected(item);
-    }
 
 
     private final ViewTreeObserver.OnGlobalLayoutListener pageLayoutListener = new ViewTreeObserver.OnGlobalLayoutListener() {
